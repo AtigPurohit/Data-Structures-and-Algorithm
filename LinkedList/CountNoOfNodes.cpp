@@ -44,7 +44,7 @@ void count(node* head)
     while(temp != NULL)
     {
         c++;
-        temp=temp->next;
+        temp=temp->next; 
     }
     cout<<"Count = "<<c<<endl;
 }
